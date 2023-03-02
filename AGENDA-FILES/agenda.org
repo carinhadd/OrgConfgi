@@ -1,0 +1,60 @@
+* Tarefas
+
+** DONE 
+CLOSED: [2023-01-28 Sat 22:26]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2023-01-28 Sat 22:26]
+:END:
+  [2023-01-28 Sat 19:25]
+  [[file:~/ORG/AGENDA-FILES/aniversario.org::*teste aqui para inbox agenda][teste aqui para inbox agenda]]
+
+** DONE continuar vendo amanhã  
+CLOSED: [2023-01-30 Mon 17:27] DEADLINE: <2023-01-29 Sun 18:00> SCHEDULED: <2023-01-29 Sun 10:00>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2023-01-30 Mon 17:27]
+:END:
+  [2023-01-28 Sat 22:31]
+  [[file:~/ORG/Hello.org::*\[\[https://youtu.be/kkqVTDbfYp4?list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ&t=1948\]\[Emacs From Scratch #7 - Configure Everything with Org Babel\]\]][Emacs From Scratch #7 - Configure Everything with Org Babel]]
+
+** DONE config para org 
+CLOSED: [2023-01-30 Mon 21:47] DEADLINE: <2023-01-31 Tue 22:00>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2023-01-30 Mon 21:47]
+:END:
+[2023-01-30 Mon 17:31] 
+  [[file:~/ORG/Code.org::*terminar de passar a minha configuração do emacs para org mode][terminar de passar a minha configuração do emacs para org mode]]
+
+** DONE teste de uma nova tarefa para fazer 
+CLOSED: [2023-01-30 Mon 21:56]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2023-01-30 Mon 21:56]
+:END:
+  [2023-01-30 Mon 21:54]
+  [[file:~/ORG/Hello.org::*teste][coisa para fazer de teste]]
+
+** TODO fazer uma tabela de cursos do slackjeff para terminar esse ano  
+DEADLINE: <2023-02-03 Fri 22:00 +1d> SCHEDULED: <2023-01-31 Tue +1d>
+  [2023-01-30 Mon 21:59]
+  [[file:~/ORG/Hello.org::*]]
+
+** TODO Assistir mais tarde [[https://youtu.be/E-NAM9U5JYE?list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ][Emacs From Scratch #8 build your own IDE with lsp-mode]]
+DEADLINE: <2023-02-05 Sun 20:00 +1h> SCHEDULED: <2023-02-04 Sat 20:00>
+  [2023-02-04 Sat 12:36]
+  [[file:~/ORG/Hello.org::*]]
+
+** DONE repositório para as minhas fontes 
+CLOSED: [2023-02-06 Mon 13:25] DEADLINE: <2023-02-06 Mon>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2023-02-06 Mon 13:25]
+:END:
+  [2023-02-05 Sun 22:30]
+  [[file:~/ORG/Emacs.org::*todo][todo]]
+
+** TODO instalar auctex e configurar exportação  
+  [2023-02-05 Sun 23:31]
+  [[file:~/ORG/Emacs.org::*AUCTEX][AUCTEX]]
+
+** TODO continuar [[https://youtu.be/XXpgzyeYh_4?list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7&t=2807][Types,Conditionals, and Loops- Learning Emacs Lisp #2]]
+  [2023-03-01 Wed 21:36]
+  [[file:~/zero.org::*]]
+

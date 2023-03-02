@@ -1,0 +1,82 @@
+* terminal linux
+** grep 
+aula do slackjeff sobre terminal linux
+  grep(usado para achar padrões
+
+ *sintaxe*
+~grep 'padrão' nome do arquivo~
+
+/exemplo/
+#+begin_src sh 
+  !#bin/sh
+  grep 'org' ~/ORG/Hello.org 
+#+end_src
+
+  opções
+  -o (only match)=retorna somente  a palavra solicitada(se ela existir)
+#+begin_src sh 
+  !#bin/sh
+  grep -o 'org' ~/ORG/Hello.org 
+#+end_src
+
+-i (case insensive)=não diferencia minúsculas de maiúsculas
+#+begin_src sh 
+  !#bin/sh
+  grep -i 'org' ~/ORG/Hello.org 
+#+end_src
+
+-E (REGEX)=ativa o suporte a expressões regulares
+ #+begin_src sh
+!#bin/sh
+grep -E '[[:space:]]+' ~/ORG/Hello.org
+#+end_src
+** cut
+/sintaxe/
+cut _opção_ _arquivo_
+
+opções
+/-c/ = characters (caracteres)
+*exemplo*
+#+begin_src sh
+!#bin/sh
+cut -c '1,5' alfabeto.txt
+#+end_src
+o output vai ser 'ae'
+
+/-d/ =delimiters (delimitadores)
+/-f/  =field (campo)
+*exemplo*
+#+begin_src sh
+!#bin/sh
+cut -d '.' -f '10-26' alfabeto.txt
+#+end_src
+o output vai ser 'j.k.l.m.n.o.p.q.r.s.t.u.v.w.x.y.z'
+
+** sed editor
+/sintaxe/ sed _opções_  _arquivo_
+*opções*
+/-e/ = imprime na tela o resultado(não altera o arquivo)
+-i = aplica o resultado no arquivo em sí(não imprime na tela)
+
+
+*s/regexp/substituir pelo que/* = faz a substituição de uma [[https://www.regular-expressions.info/tutorial.html][expressão regular]] ([[https://regexone.com][regexone]]) ou qualquer padrão por qualquer outra coisa
+ _exemplo_
+ #+begin_src sh
+   !#/bin/sh
+   sed -e 's/^a.b/coisa feia/' alfabeto.txt 
+ #+end_src
+output será 'colorido.c.d.e.f.g.h.i.j.k.l.m.n.o.p.q.r.s.t.u.v.w.x.y.z'
+
+d=deleta a linha que possuí padrão expecificado  
+*exemplo*
+#+begin_src sh
+  !#/bin/sh
+  sed -i '/a/d' alfabeto.txt
+#+end_src
+
+
+teste 
+#+begin_src sh
+    !#/bin/sh
+    sed -e 's/amora\|morango\|cachaça\|leite\|chocolate\|banana/feira da fruta/' feira-da-fruta.txt
+#+end_src
